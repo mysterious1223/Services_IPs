@@ -47,14 +47,14 @@ def create_objects(count):
 
 
 
-if len(sys.argv) < 2:
-    print "[NO ARGUMENTS SUPPLIED]: LIVE |NOTLIVE"
-elif len(sys.argv) == 2:
+#if len(sys.argv) < 2:
+ #   print "[NO ARGUMENTS SUPPLIED]: LIVE |NOTLIVE"
+#elif len(sys.argv) == 2:
     #check
-   if str(sys.argv[1]) == "LIVE":
-       print "ALL LIVE CONNECTIONS"
-   if str(sys.argv[1]) == "NOTLIVE":
-       print "ALL NOT LIVE CONNECTIONS"
+ #  if str(sys.argv[1]) == "LIVE":
+  #     print "ALL LIVE CONNECTIONS"
+   #if str(sys.argv[1]) == "NOTLIVE":
+    #   print "ALL NOT LIVE CONNECTIONS"
 
 
 
